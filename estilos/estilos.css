@@ -27,8 +27,9 @@ p{
     color:#194350;
     font-size:20px;
     font-weight:bold;
-    text-align:center;
+    text-align:justify;
     margin:10px;
+    text-indent:30px;
 }
 
 button{
@@ -366,6 +367,24 @@ section{
 
     p{
         font-size:12px;
+    }
+
+  }
+
+  @media (max-width: 400px) {
+    .header{
+        border-bottom:white solid 3px;
+    }
+    .nav{
+        display:none;
+    }
+
+    h2{
+        font-size:16px;
+    }
+
+    p{
+        font-size:10px;
     }
 
   }
