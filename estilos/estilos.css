@@ -371,7 +371,7 @@ section{
 
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 600px) {
     .header{
         border-bottom:white solid 3px;
     }
