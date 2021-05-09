@@ -357,6 +357,10 @@ section{
     .header{
         border-bottom:white solid 3px;
     }
+
+    h1{
+        font-size:24px;
+    }
     .nav{
         display:none;
     }
@@ -377,6 +381,10 @@ section{
     }
     .nav{
         display:none;
+    }
+
+    h1{
+        font-size:22px;
     }
 
     h2{
