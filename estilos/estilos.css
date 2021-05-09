@@ -1,8 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0;
     padding:0;
     border:0;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:white;
 }
 
 h1{
@@ -19,6 +28,7 @@ p{
     font-size:22px;
     font-weight:bold;
     text-align:center;
+    margin:10px;
 }
 
 button{
@@ -57,6 +67,10 @@ button:hover{
     border-bottom: white solid 3px;
     display:flex;
     justify-content: center;
+    position:sticky;
+    top:0px;
+    transition:0.3s;
+    z-index:100;
 }
 
 .nav ul{
@@ -209,6 +223,7 @@ section{
     align-items: center;
     overflow: hidden;
     transition:0.4s;
+    display:none;
 }
 
 /* DIV EXTEND */
