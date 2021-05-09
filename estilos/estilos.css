@@ -372,6 +372,17 @@ section{
     p{
         font-size:12px;
     }
+    .asideLimitantes{
+        height:1000px; 
+    }
+    
+    .divLimitantes{
+        height:1000px;
+    }
+    
+    .sectionLimitantes{
+        height:1000px;
+    }
 
   }
 
@@ -393,6 +404,18 @@ section{
 
     p{
         font-size:10px;
+    }
+
+    .asideLimitantes{
+        height:1000px; 
+    }
+    
+    .divLimitantes{
+        height:1000px;
+    }
+    
+    .sectionLimitantes{
+        height:1000px;
     }
 
   }
