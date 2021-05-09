@@ -25,7 +25,7 @@ h2{
 
 p{
     color:#194350;
-    font-size:22px;
+    font-size:20px;
     font-weight:bold;
     text-align:center;
     margin:10px;
@@ -251,7 +251,7 @@ section{
 /* LIMITANTES EXTEND */
 .asideLimitantes{
     width:20%;
-    height:800px; 
+    height:900px; 
     background:#194350 ;
     border-right:white solid 3px;
     display: flex;
@@ -264,7 +264,7 @@ section{
 
 .divLimitantes{
     width:40%;
-    height:800px;
+    height:900px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -274,7 +274,7 @@ section{
 
 .sectionLimitantes{
     width:100%;
-    height:800px;
+    height:900px;
     display:flex;
     background:#9dbeb9;
     transition:0.4s;
@@ -293,3 +293,80 @@ section{
     align-items: center;
     border-top: white solid 3px;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 1400px) {
+    .nav-li{
+        font-size:14px;
+    }
+
+    .nav-li:hover{
+        font-size:16px;
+    }
+
+    h2{
+        font-size:26px;
+    }
+
+    p{
+        font-size:18px;
+    }
+
+  }
+
+  @media (max-width: 1024px) {
+    .nav-li{
+        font-size:11px;
+    }
+
+    .nav-li:hover{
+        font-size:13px;
+    }
+
+    h2{
+        font-size:24px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+  }
+
+  @media (max-width: 900px) {
+    .header{
+        border-bottom:white solid 3px;
+    }
+    .nav{
+        display:none;
+    }
+
+    h2{
+        font-size:20px;
+    }
+
+    p{
+        font-size:14px;
+    }
+
+  }
+
+  @media (max-width: 700px) {
+    .header{
+        border-bottom:white solid 3px;
+    }
+    .nav{
+        display:none;
+    }
+
+    h2{
+        font-size:18px;
+    }
+
+    p{
+        font-size:12px;
+    }
+
+  }
+
